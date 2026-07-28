@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="page-wrapper">
+
+        <header class="header">
+            <p class="eyebrow">COMP 2132 — Project</p>
+            <h1 class="game-title">Hangman</h1>
+            <p class="author">By <strong>Rudra Patel</strong></p>
+        </header>
+
+        <div class="game-layout">
+
+            <!-- LEFT: hangman figure + wrong guesses -->
+            <div class="left-panel">
+                <div class="hangman-box">
+                    <img src="../images/hang0.svg" alt="Hangman stage" id="hangman-img" class="hangman-img">
+                </div>
+                <div class="wrong-info">
+                    <div class="wrong-count-row">
+                        <span class="wrong-label">Wrong Guesses</span>
+                        <span class="wrong-count"><span id="wrong-num">0</span> / 6</span>
+                    </div>
+                    <div class="wrong-letters" id="wrong-letters"></div>
+                </div>
+            </div>
+
+            <!-- RIGHT: hint, word, keyboard -->
+            <div class="right-panel">
+
+                <div class="hint-box">
+                    <span class="hint-label">Hint</span>
+                    <p class="hint-text" id="hint-text">—</p>
+                </div>
+
+                <div class="word-display" id="word-display"></div>
+
+                <div class="letters-remaining">
+                    <span class="mono-tag" id="letters-remaining-text"></span>
+                </div>
+
+                <div class="keyboard" id="keyboard"></div>
+
+                <button id="new-game-btn" class="btn btn--ghost">New Game</button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- RESULT OVERLAY -->
+    <div id="result-overlay" class="result-overlay hidden">
+        <div class="result-card">
+            <div class="result-icon" id="result-icon">🎉</div>
+            <h2 class="result-title" id="result-title">You Won!</h2>
+            <p class="result-detail" id="result-detail"></p>
+            <p class="result-word" id="result-word"></p>
+            <button id="play-again-btn" class="btn btn--primary">Play Again</button>
+        </div>
+    </div>
+
+</body>
+</html>

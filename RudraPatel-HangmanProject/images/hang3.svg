@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220">
+  <rect width="200" height="220" fill="none"/>
+  <!-- Gallows -->
+  <line x1="20" y1="210" x2="180" y2="210" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="60" y1="210" x2="60" y2="18" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="60" y1="18" x2="140" y2="18" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="140" y1="18" x2="140" y2="48" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  <!-- Head -->
+  <circle cx="140" cy="64" r="16" fill="none" stroke="#dc2626" stroke-width="3.5"/>
+  <!-- Body -->
+  <line x1="140" y1="80" x2="140" y2="140" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Left arm -->
+  <line x1="140" y1="98" x2="112" y2="122" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220">
+  <rect width="200" height="220" fill="none"/>
+  <!-- Gallows -->
+  <line x1="20" y1="210" x2="180" y2="210" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="60" y1="210" x2="60" y2="18" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="60" y1="18" x2="140" y2="18" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="140" y1="18" x2="140" y2="48" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  <!-- Head -->
+  <circle cx="140" cy="64" r="16" fill="none" stroke="#dc2626" stroke-width="3.5"/>
+  <!-- Dead eyes -->
+  <line x1="133" y1="58" x2="137" y2="62" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+  <line x1="137" y1="58" x2="133" y2="62" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+  <line x1="143" y1="58" x2="147" y2="62" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+  <line x1="147" y1="58" x2="143" y2="62" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+  <!-- Sad mouth -->
+  <path d="M134 70 Q140 67 146 70" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+  <!-- Body -->
+  <line x1="140" y1="80" x2="140" y2="140" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Left arm -->
+  <line x1="140" y1="98" x2="112" y2="122" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Right arm -->
+  <line x1="140" y1="98" x2="168" y2="122" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Left leg -->
+  <line x1="140" y1="140" x2="112" y2="174" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Right leg -->
+  <line x1="140" y1="140" x2="168" y2="174" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
